@@ -1,0 +1,209 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 720px;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.4;
+}
+
+
+
+.hero-section {
+    background-image: url(images/torshov.jpg);
+    background-size: cover;
+    height: 343px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.hero-text {
+    background: #1D2F6F;
+    padding: 2px 12px;
+    border-radius: 10px;
+    top: 119px;
+}
+
+.hero-text-2 {
+    background: #8390FA;
+    padding: 2px 0;
+    border-radius: 10px;
+    width: 440px;
+    
+}
+
+#activities-section {
+    background: #F88DAD;
+    height: 343px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.park, .theatre, .sports {
+    width: 198px;
+    height: 227px;
+    margin: 58px 13px; 
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3);
+}
+
+.activities h3 {
+    width: 180px;
+    margin: 0 auto 7px;
+}
+
+.activities p {
+    font-size: 1em;
+}
+
+.activities-img {
+    width: 100px;
+    background-size: cover;
+    border-radius: 50%; 
+    margin-bottom: 15px;
+}
+
+#guide-img {
+    width: 188px;
+    height: 248,67px;
+    border-radius: 10px;
+}
+
+#guide-section {
+    background: #F9E9EC;
+    top: 686px;
+    width: 720px;
+    padding: 50px 0;
+    
+}
+
+.guide-card {
+    width: 400px;
+    background: #F88DAD;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    text-align: center;
+    padding: 23px 13px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #1D2F6F;    
+}
+
+.guide-card h3 {
+    font-size: 1.4em;
+    margin-bottom: 14px; 
+}
+.guide-card h4 {
+    margin-top: 20px;
+}
+
+.guide-card p {
+    font-style: italic;
+}
+
+.guide-bio {
+    width: 200px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.form-section {
+    background: #8390FA;
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 30px 0;     
+}
+
+fieldset {
+    border: none;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.contact-info {
+    width: 300px;
+    text-align: left;
+    margin: 60px 0 0 70px;
+    color: #ffffff;
+    
+}
+
+.contact-info p {
+    font-weight: 700; 
+}
+
+label p {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+textarea {
+    font-size: 1em;
+    font-style: italic;
+    padding: 4px;
+    border-radius: 10px;
+    background: #F9E9EC;
+    border: none;
+    box-shadow: 2px 2px 10px #1D2F6F;
+}
+
+button {
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    width: 215px;
+    cursor: pointer;
+    background: #F9E9EC;
+    box-shadow: 2px 2px 10px #1D2F6F;
+}
+
+button:hover {
+    background: #1D2F6F;
+    color: white;
+}
+
+
+footer {
+    background: #1D2F6F;
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, footer, label p, button {
+    font-family: 'DM Serif Display', serif;
+}
